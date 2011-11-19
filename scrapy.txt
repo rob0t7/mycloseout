@@ -1,0 +1,10 @@
+# XPATHs for scraping
+
+MLS #: /html/body/form/div/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td
+Asking Price: /html/body/form/div/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td[2]/div/span
+Building Type: /html/body/form/div/table/tbody/tr[2]/td/table/tbody/tr[3]/td[2]/table[2]/tbody/tr/td/table/tbody/tr/td/div[2]
+Bedrooms: /html/body/form/div/table/tbody/tr[2]/td/table/tbody/tr[3]/td[2]/table[2]/tbody/tr/td/table/tbody/tr[2]/td/div[2]
+Bathrooms: /html/body/form/div/table/tbody/tr[2]/td/table/tbody/tr[3]/td[2]/table[2]/tbody/tr/td/table/tbody/tr[2]/td/div[2]
+Landsize: /html/body/form/div/table/tbody/tr[2]/td/table/tbody/tr[3]/td[2]/table[2]/tbody/tr/td/table/tbody/tr[2]/td/div[2]
+Location: /html/body/form/div/table/tbody/tr[2]/td/table/tbody/tr[3]/td[2]/table[2]/tbody/tr/td/table/tbody/tr[7]/td/div[2]
+Stories: /html/body/form/div/table/tbody/tr[2]/td/table/tbody/tr[3]/td[2]/table[2]/tbody/tr/td/table/tbody/tr[7]/td/div[2]
