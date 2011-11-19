@@ -25,6 +25,14 @@ class MyModel(Base):
         self.name = name
         self.value = value
 
+class Leads(Base):
+    __tablename__ = 'leads'
+    id = Column(Integer, primary_key=True)
+    email = Column(Unicode(255), unique=True)
+	
+    def __init__(self, email):
+        self.email = email
+		
 def populate():
     session = DBSession()
     model = MyModel(name=u'root', value=55)

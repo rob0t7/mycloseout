@@ -1,0 +1,72 @@
+/* Splash Page CSS */
+
+body {
+	/* Gradient */
+	/* default background colour, for all layout engines that don't implement gradients */
+	background-color: #70C3FD;
+	font-family: calibri;
+    margin: 0;
+}
+
+#wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	
+	/* Gradient */
+	/* default background colour, for all layout engines that don't implement gradients */
+	background-color: #70C3FD;
+
+	/* gecko based browsers */
+	background: -moz-linear-gradient(top, #ADDCFD, #70C3FD);
+
+	/* webkit based browsers */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ADDCFD), to(#70C3FD));
+
+	font-family: calibri;
+}
+
+#content {
+	position: relative;
+	margin: auto;
+	height: auto;
+	width: 700px;
+	text-align: center;
+}
+
+.content_item {
+	position: relative;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+p {
+	font-size: 30px;
+}
+
+#splash_form_div {
+	position: relative;
+}
+
+#grass {
+	background-color: #13AE3B;
+	position: relative;
+	height: 3px;
+	width: auto;
+	margin-top: 50px;
+}
+
+#grass_tuff1 {
+	float: left;
+	position: relative;
+	top: -62px;
+}
+
+#grass_tuff2 {
+	float: right;
+	position: relative;
+	top: -62px;
+}
