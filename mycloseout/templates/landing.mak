@@ -12,7 +12,7 @@
 			<img id="logo" src="../static/myclosingscosts.png"/>
 	
 			<p id="splash_description" class="content_item">
-				The easiest way to buy your new home
+				Hidden costs uncovered!
 			</p>
 	
 			<div id="splash_form_div" class="content_item">
