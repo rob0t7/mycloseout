@@ -1,0 +1,22 @@
+<html><head><script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		
+	<script  type="text/javascript">
+		var map; var myOptions; var latlng;
+
+		function init(lat, lng){    
+			latlng = new google.maps.LatLng(43.647197, -79.403993);    
+			myOptions = {    zoom: 16,    center: latlng,    mapTypeId: google.maps.MapTypeId.ROADMAP    };    
+			map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+				
+			addMarker1();
+		}
+		  
+	function addMarker1(){
+		var myLatlng = new google.maps.LatLng(43.647197, -79.403993);
+		var marker = new google.maps.Marker({position: myLatlng,title:"StartUp Weekend"});
+		marker.setMap(map);
+	}
+
+
+
+</script></head><body onload="init(43.647197, -79.403993)" style="margin:0px; padding:0px;"><div id="map_canvas" style="width:100%; height:100%"></div></body></html>
