@@ -18,7 +18,7 @@
 			<div id="splash_form_div" class="content_item">
 
 <script type="text/javascript">
-	var _ntzrq=[['setProgramId', 'nYNFq'], ['preview','signup']]; 
+	var _ntzrq=[['setProgramId', 'nYNFq'], ['load']]; 
 	(function() { 
 	 var d = document, h = d.getElementsByTagName('head')[0], s = d.createElement('script'); 
 	 d.write('<div id="enthuzr-widget"></div>'); 
